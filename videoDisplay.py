@@ -21,7 +21,7 @@ class VideoDisplay:
         cap.release()
         cv2.destroyAllWindows()
         return True
-
+test="https://bearmaxtest.blob.core.windows.net/test/Metal_pipe_falling_sound_effectloud.mp4?sp=r&st=2024-03-13T05:10:29Z&se=2024-03-13T13:10:29Z&spr=https&sv=2022-11-02&sr=b&sig=V9rSsSetFc%2BhirlWk8CjJu8KpAgQZDCN%2BJGUMEpzkEU%3D"
 # Example usage
 def main():        
     inputVideo= input("Enter the video link: ")
