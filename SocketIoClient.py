@@ -2,7 +2,7 @@ import asyncio
 import socketio
 from videoDisplay import playMediaFunction
 
-sio = socketio.AsyncClient()
+sio = socketio.AsyncClient(ssl_verify=False)
 
 DEFAULT_URL = 'https://bearmaxcare.com/socket.io/'
 # Generate token via cloudflare or self signed and then paste here
