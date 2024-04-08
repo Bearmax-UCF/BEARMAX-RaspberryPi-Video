@@ -26,7 +26,7 @@ class VideoDisplay:
         cv2.waitKey(1)
         
 # Example usage
-def playMediaFunction(mediaURL: str):        
+def playVideoFunction(mediaURL: str):        
     inputVideo= mediaURL
     video = VideoDisplay(inputVideo)
     video.displayVideo()
