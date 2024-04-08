@@ -6,7 +6,9 @@ from audioDisplay import playAudioFunction
 
 sio = socketio.AsyncClient(ssl_verify=False)
 
-DEFAULT_URL = 'http://localhost:8080/socket.io/'
+DEFAULT_URL = 'https://bearmaxcare.com/socket.io/'
+# DEFAULT_URL = 'http://localhost:8080/socket.io/'
+
 # Generate token via cloudflare or self signed and then paste here
 # This token essentially plays the same role as the token 'Bearer ...' used for the webscockets where the Bearmax server code is 
 token = 'Bot cj0pWScZJqyhQkhnhWwOW772OuxJSFRwHFdfj1O'
