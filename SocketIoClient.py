@@ -4,7 +4,7 @@ from videoDisplay import playVideoFunction
 from audioVideoDisplay import playAudioVideoFunction
 from audioDisplay import playAudioFunction
 
-sio = socketio.AsyncClient()
+sio = socketio.AsyncClient(ssl_verify=False)
 
 DEFAULT_URL = 'http://localhost:8080/socket.io/'
 # Generate token via cloudflare or self signed and then paste here
