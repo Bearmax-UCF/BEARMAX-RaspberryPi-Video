@@ -1,5 +1,5 @@
 import cv2
-from ffpyplayer.player import MediaPlayer
+from ffpyplayer.player import MediaPlayer # not really supported by Raspberry Pi. need to find alternative
 import requests
 from audioDisplay import remove_downloaded_mp3
 import time
